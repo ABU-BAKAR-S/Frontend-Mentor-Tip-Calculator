@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ solution URL ](https://github.com/ABU-BAKAR-S/Frontend-Mentor-Tip-Calculator)
-- Live Site URL: [ live site URL ](https://your-live-site-url.com)
+- Live Site URL: [ live site URL ](https://abu-bakar-s.github.io/Frontend-Mentor-Tip-Calculator/)
 
 ## My process
 

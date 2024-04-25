@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        SPLI <br />
+        TTER
+      </h2>
+      <div class="contents">
+        <div class="left_contents">
+          <h4>Bill</h4>
+          <div class="bill_input_field">
+            <img
+              src="images/icon-dollar.svg"
+              alt="icon-dollar"
+              class="dollar_img"
+            />
+            <input type="number" placeholder="0" id="bill_amount" />
+          </div>
+          <div class="select_tips_field">
+            <h4>Select Tip %</h4>
+            <div class="tips_field">
+              <div>5%</div>
+              <div>10%</div>
+              <div>15%</div>
+              <div>25%</div>
+              <div>50%</div>
+              <div id="custom_field">
+                <input type="number" placeholder="Custom" id="custom" />
+              </div>
+            </div>
+          </div>
+          <div class="select_people_field">
+            <h4>Number of People</h4>
+            <span id="error"></span>
+            <div class="select_people">
+              <img
+                src="images/icon-person.svg"
+                alt="icon-person"
+                class="person_img"
+              />
+              <input type="number" placeholder="0" id="people" />
+            </div>
+          </div>
+        </div>
+        <div class="right_contents">
+          <div class="tip_amount_field">
+            <div class="per_person_amount_field">
+              <div>
+                <h4>Tip Amount</h4>
+                <span>/ person</span>
+              </div>
+              <div class="per_person_amount_show_field">
+                <span id="show_amount">$0.00</span>
+              </div>
+            </div>
+            <div class="total_amount_field">
+              <div>
+                <h4>Total</h4>
+                <span>/ person</span>
+              </div>
+              <div class="per_person_amount_show_field">
+                <span id="show_total_amount">$0.00</span>
+              </div>
+            </div>
+            <button type="reset" id="resetBtn">RESET</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>
